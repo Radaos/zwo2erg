@@ -1,10 +1,10 @@
 # Project Specification Document
 
-##Project Title: zwo2erg
+## Project Title: zwo2erg
 
 ## Purpose: To convert Zwift ZWO workout files (XML format) into ERG files — a plain-text format used by other training platforms like TrainerRoad, Wahoo SYSTM, or GoldenCheetah. The tool ensures interoperability across indoor cycling ecosystems.
 
-##Functional Requirements
+## Functional Requirements
 1. File Selection & Input Handling\
 FR1.1: The system shall provide a graphical file picker to select one or more .zwo files.
 FR1.2: The system shall allow users to select a folder to process multiple workouts in batch mode.
@@ -46,6 +46,7 @@ Dependencies:\
 xml.etree.ElementTree for ZWO parsing\
 datetime, os for file handling\
 GUI framework Tkinter
+
 
 
 
