@@ -12,17 +12,11 @@ FR1.3: The system shall validate selected files for correct ZWO XML structure be
 
 2. Output Configuration
 FR2.1: The system shall prompt the user with a destination folder picker for ERG output.
-FR2.2: The system shall display a summary of converted files upon completion, including success and error status.
 
 3. Conversion Workflow
 FR3.1: The system shall parse ZWO workout elements (<Warmup>, <Cooldown>, <SteadyState>, <Ramp>, <IntervalsT>).
 FR3.2: The system shall convert FTP-relative values to ERG-compatible format.
 FR3.3: The system shall generate .erg files named based on the workout title or original filename.
-
-4. User Feedback
-FR4.1: The system shall show progress indicators during file parsing and conversion.
-FR4.2: The system shall display a log window or modal detailing parsed intervals and any conversion warnings.
-FR4.3: The system shall offer a “View Output Folder” button post-conversion for quick access.
 
 ## Design Specifications
 
@@ -46,6 +40,7 @@ Dependencies:\
 xml.etree.ElementTree for ZWO parsing\
 datetime, os for file handling\
 GUI framework Tkinter
+
 
 
 
