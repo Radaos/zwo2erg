@@ -6,16 +6,16 @@
 
 ## Functional Requirements
 1. File Selection & Input Handling\
-FR1.1: The system shall provide a graphical file picker to select one or more .zwo files.
-FR1.2: The system shall allow users to select a folder to process multiple workouts in batch mode.
+FR1.1: The system shall provide a graphical file picker to select one or more .zwo files.\
+FR1.2: The system shall allow users to select a folder to process multiple workouts in batch mode.\
 FR1.3: The system shall validate selected files for correct ZWO XML structure before conversion begins.
 
 2. Output Configuration
 FR2.1: The system shall prompt the user with a destination folder picker for ERG output.
 
 3. Conversion Workflow
-FR3.1: The system shall parse ZWO workout elements (<Warmup>, <Cooldown>, <SteadyState>, <Ramp>, <IntervalsT>).
-FR3.2: The system shall convert FTP-relative values to ERG-compatible format.
+FR3.1: The system shall parse ZWO workout elements (<Warmup>, <Cooldown>, <SteadyState>, <Ramp>, <IntervalsT>).\
+FR3.2: The system shall convert FTP-relative values to ERG-compatible format.\
 FR3.3: The system shall generate .erg files named based on the workout title or original filename.
 
 ## Design Specifications
@@ -40,6 +40,7 @@ Dependencies:\
 xml.etree.ElementTree for ZWO parsing\
 datetime, os for file handling\
 GUI framework Tkinter
+
 
 
 
