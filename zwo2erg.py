@@ -9,8 +9,8 @@ TODO: Zwift format textevents are not translated.
 author = Robert Drohan
 copyright = Copyright 2024, Robert Drohan
 license = GPLv3
-version = 0.9.1
-status = Development
+version = 1.0
+status = Release
 """
 
 import sys
@@ -249,3 +249,4 @@ def main():
 if __name__ == '__main__':
     # sys.exit(main(sys.argv)) # Clean exit
     main()
+
