@@ -29,12 +29,12 @@ FR4.3: The system shall offer a “View Output Folder” button post-conversion 
 GUI Components
 Component				      Purpose\
 Input File Picker		  Select ZWO files or input folder\
-Output Folder Picker	Specify location to save ERG files\
+Output Folder Picker	Specify location to save ERG files
 
 File Mapping Logic
 ZWO workout intervals (XML elements) → ERG line items
 
-FTP percentage → ERG unit scaling (static or user-supplied FTP value)
+FTP percentage → ERG unit scaling (static or user-supplied FTP value)\
 Interval durations → hh:mm:ss time format
 Workout title → ERG file name
 Descriptive text → Comments in ERG file
@@ -46,6 +46,7 @@ Dependencies:
 xml.etree.ElementTree for ZWO parsing
 datetime, os for file handling
 GUI framework Tkinter
+
 
 
 
